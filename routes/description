@@ -1,0 +1,5 @@
+Criar uma opção para deixar o usuario informar o nome de dois times.
+Adicionar na tela uma lista com todos os times.
+Criar um método que irá gerar um gol de modo aleatorio para os times.
+Se o time for o Corinthians não deixar o mesmo perder.
+Se o time for o Vasco não deixar o mesmo ganhar.
