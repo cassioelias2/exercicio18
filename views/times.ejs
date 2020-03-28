@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parciais dos jogos em andamento</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Parciais dos jogos em andamento</h1>
+    <% times.forEach( t => { %>
+      <span><%= t.time1.nome %></span>
+      <span><%= t.time1.gols %></span>
+      <span> X </span>
+      <span><%= t.time2.nome %></span>
+      <span><%= t.time2.gols %></span>
+      <br>
+      <% });%>
+  </body>
+</html>
